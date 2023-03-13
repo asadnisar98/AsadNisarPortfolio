@@ -15,15 +15,15 @@ const Contact = ({ onCursor }) => {
                     </a>
                     <div className="social">
                         <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")}
-                            className="email" href="mailto:hrithiksinha17@gmail.com">hrithiksinha17@gmail.com</a>
+                            className="email" href="mailto:asadnisar98@gmail.com">asadnisar98@gmail.com</a>
                         <div className="social__icons">
-                            <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hrithik-sinha-b45107173/">linkedin</a>
-                            <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} target="_blank" rel="noopener noreferrer" href="https://dribbble.com/Kaisam">dribbble</a>
-                            <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} target="_blank" rel="noopener noreferrer" href="https://www.behance.net/hrithiksinha">behance</a>
+                            <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/asad-nisar-98/">Linkedin</a>
+                            <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} target="_blank" rel="noopener noreferrer" href="https://twitter.com/AsadSarwani">Twitter</a>
+                            <a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} target="_blank" rel="noopener noreferrer" href="https://github.com/asadnisar98">Github</a>
                         </div>
                     </div>
                 </div>
-                <p>hrithik sinha 2022. all rights reserved</p>
+                <p>AN 2022. all rights reserved</p>
             </footer>
         </>
     )

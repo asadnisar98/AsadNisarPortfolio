@@ -1,64 +1,39 @@
-import divertical from '../images/Divertical.webp'
-import divertical2 from '../images/Divertical2.webp'
-import foodDeliveryApp from '../images/FoodDeliveryApp.webp'
-import foodDeliveryApp2 from '../images/FoodDeliveryApp2.webp'
-import amazon from '../images/Amazon.webp'
-import amazon2 from '../images/Amazon2.webp'
-import efa from '../images/EFA.webp'
-import efa2 from '../images/EFA2.webp'
-import caffe from '../images/Caffe.webp'
-import caffe2 from '../images/Caffe2.webp'
-import pawdopt from '../images/Pawdopt.webp'
-import pawdopt2 from '../images/Pawdopt2.webp'
+import irmcon from '../images/irmcon.png'
+import irmcon2 from '../images/irmcon.png'
+import barnes from '../images/barnes.jpeg'
+import barnes2 from '../images/barnes.jpeg'
+import umberto from '../images/umberto.webp'
+import umberto2 from '../images/umberto.webp'
 import one from '../images/1.jpg'
 import two from '../images/2.jpg'
 import three from '../images/3.jpeg'
-import four from '../images/4.jpg'
 
 export const projects = [
     {
         id: 1,
-        img: pawdopt,
-        title: 'Pawdopt App',
-        img2: pawdopt2,
+        img: umberto,
+        title: 'Umberto Shopify',
+        img2: umberto2,
         distort: one,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/149122539/Pawdopt-UX-Case-Study'
+        type: 'HTML, CSS, JS, Liquid, Shopify',
+        link: 'https://www.umbertoluce.com/'
     },
     {
         id: 2,
-        img: amazon,
-        title: 'Amazon App Redesign',
-        img2: amazon2,
+        img: barnes,
+        title: 'Barnes Jewelry',
+        img2: barnes2,
         distort: two,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/146011057/Amazon-App-Redesign'
+        type: 'GATSBYJS, REACTJS, REDUX, STYLED COMPONENTS, BOOTSTRAP, Shopify HEADLESS CMS',
+        link: 'https://barnesmaster.gtsb.io/'
     },
     {
         id: 3,
-        img: foodDeliveryApp,
-        title: 'Food Delivery',
-        img2: foodDeliveryApp2,
+        img: irmcon,
+        title: 'IRMCON',
+        img2: irmcon2,
         distort: three,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/134438563/Food-Delivery-App-Design'
-    },
-    {
-        id: 4,
-        img: divertical,
-        title: 'Divertical Website',
-        img2: divertical2,
-        distort: four,
-        type: 'UX UI Design',
-        link: 'https://www.behance.net/gallery/144556863/UX-UI-Design-Divertical'
-    },
-    {
-        id: 5,
-        img: efa,
-        title: 'Football Association',
-        img2: efa2,
-        distort: one,
-        type: 'Web Design',
-        link: 'https://www.behance.net/gallery/120495377/European-Football-Association-Webdesign-Concept'
+        type: 'GATSBYJS, REACTJS, REDUX, BOOTSTRAP, STYLED COMPONENTS, GRAPHQL, WORDPRESS HEADLESS CMS',
+        link: 'https://irmcon.com/'
     }
 ]

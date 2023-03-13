@@ -60,23 +60,22 @@ const Loading = ({ loading }) => {
                     exit={{ opacity: 0 }}
                 >
                     <motion.span variants={firstName} initial='initial' animate='animate' className='first'>
-                        <motion.span variants={letter}>K</motion.span>
-                        <motion.span variants={letter}>a</motion.span>
-                        <motion.span variants={letter}>i</motion.span>
-                        <motion.span variants={letter}>s</motion.span>
-                        <motion.span variants={letter}>a</motion.span>
-                        <motion.span variants={letter}>m</motion.span>
+                        <motion.span variants={letter}>A</motion.span>
+                        <motion.span variants={letter}>S</motion.span>
+                        <motion.span variants={letter}>A</motion.span>
+                        <motion.span variants={letter}>D</motion.span>
                     </motion.span>
                     {/* <motion.span className="line" variants={line} initial='initial' animate='animate'></motion.span> */}
                     <motion.span variants={lastName} initial='initial' animate='animate' className='last'>
                         <motion.span variants={letter}>P</motion.span>
-                        <motion.span variants={letter}>a</motion.span>
-                        <motion.span variants={letter}>r</motion.span>
-                        <motion.span variants={letter}>a</motion.span>
-                        <motion.span variants={letter}>d</motion.span>
-                        <motion.span variants={letter}>i</motion.span>
-                        <motion.span variants={letter}>s</motion.span>
-                        <motion.span variants={letter}>e</motion.span>
+                        <motion.span variants={letter}>O</motion.span>
+                        <motion.span variants={letter}>R</motion.span>
+                        <motion.span variants={letter}>T</motion.span>
+                        <motion.span variants={letter}>F</motion.span>
+                        <motion.span variants={letter}>O</motion.span>
+                        <motion.span variants={letter}>L</motion.span>
+                        <motion.span variants={letter}>I</motion.span>
+                        <motion.span variants={letter}>O</motion.span>
                     </motion.span>
                 </motion.div>
                 <Panels />

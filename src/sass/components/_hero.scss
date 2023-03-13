@@ -6,17 +6,19 @@
 
     .circle {
         position: absolute;
-        width: 50vh;
-        height: 50vh;
-        background: url(../../images/Circle_BG.webp);
-        bottom: 25vh;
+        width: 70vh;
+        height: 70vh;
+        background: url(../../images/hero.png);
+        bottom: 10vh;
         align-self: center;
-        border-radius: 50vh;
+        border-radius: 10vh;
         background-size: cover;
-        filter: brightness(0.8);
+        filter: brightness(0.4);
 
         @media (max-width: 600px) {
-            width: 30vh;
+            width: 50vh;
+            height: 50vh;
+            bottom: 30vh;
         }
     }
 

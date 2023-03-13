@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import { motion, useTransform, useViewportScroll } from "framer-motion"
 import { ReactComponent as Down } from '../images/Next.svg'
-import resume from '../images/HrithikSinhaCV.pdf'
+import resume from '../images/my_cv.pdf'
+
 
 const transition = { duration: 1.4, ease: 'easeInOut', delay: 1.5 }
 
@@ -25,7 +26,7 @@ const Hero = ({ onCursor, setToggleMenu }) => {
                     <motion.nav id="hero" className="nav"
                         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0, transition: { delay: 2.2, ...transition } }}>
 
-                        <h5>Kaisam</h5>
+                        <h5>ASAD NISAR</h5>
                         <ul>
                             <li><a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} href="#about">about</a></li>
                             <li><a onMouseLeave={onCursor} onMouseEnter={() => onCursor("hovered")} href="#project">projects</a></li>
@@ -46,11 +47,11 @@ const Hero = ({ onCursor, setToggleMenu }) => {
                         <motion.h1
                             className="first" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1, transition: transition }}
                         >
-                            Hrithik Sinha
+                           Asad Nisar
                         </motion.h1>
                         <motion.h1
                             className="second" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1, transition: transition }}
-                        >UX designer</motion.h1>
+                        >Front End Developer</motion.h1>
                     </div>
 
                     <motion.div className="banner__lower"
@@ -61,25 +62,25 @@ const Hero = ({ onCursor, setToggleMenu }) => {
                             <motion.div style={{ translateX: x }}
                                 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0, transition: { delay: 2.2, ...transition } }}
                             >
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
-                                <span>KAISAM</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
+                                <span>ASAD</span>
                             </motion.div>
                         </div>
 
