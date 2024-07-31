@@ -23,7 +23,7 @@ const Contact = ({ onCursor }) => {
                         </div>
                     </div>
                 </div>
-                <p>AN 2022. all rights reserved</p>
+                <p>AN 2024. all rights reserved</p>
             </footer>
         </>
     )
