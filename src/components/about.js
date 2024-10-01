@@ -64,7 +64,7 @@ const About = ({ onCursor }) => {
                             </p>
 
                             <p className="interest">
-                            In my previous role as a Front End Developer at Digital Poin8 from March 2020 to Sep 2023, I developed and maintained responsive websites and web applications using HTML5, CSS3, and JavaScript, ReactJS, NextJS, Redux, Zustand, Material-UI adhering to industry standards and best practices. I collaborated with UI/UX designers and back-end developers to implement features and ensure seamless integration with the back-end system. I worked with version control systems such as Github to manage code changes and facilitate team collaboration. Additionally, I optimized website performance by optimizing code, images, and other assets to reduce page load times and improve user experience. I also debugged and resolved cross-browser compatibility issues to ensure the website/application worked as intended on all major web browsers. Finally, I utilized various front-end frameworks and libraries, such as Bootstrap and React, to speed up development and improve scalability.
+                            In my previous role as a Front End Developer at Digital Poin8 from Feb 2021 to Sep 2023, I developed and maintained responsive websites and web applications using HTML5, CSS3, and JavaScript, ReactJS, NextJS, Redux, Zustand, Material-UI adhering to industry standards and best practices. I collaborated with UI/UX designers and back-end developers to implement features and ensure seamless integration with the back-end system. I worked with version control systems such as Github to manage code changes and facilitate team collaboration. Additionally, I optimized website performance by optimizing code, images, and other assets to reduce page load times and improve user experience. I also debugged and resolved cross-browser compatibility issues to ensure the website/application worked as intended on all major web browsers. Finally, I utilized various front-end frameworks and libraries, such as Bootstrap and React, to speed up development and improve scalability.
                             </p>
 
                             <p className="interest">
@@ -107,6 +107,7 @@ const About = ({ onCursor }) => {
                         <li>SCSS/SASS</li>
                         <li>JavaScript</li>
                         <li>ReactJS</li>
+                        <li>NextJS</li>
                         <li>React Native</li>
                         <li>Expo</li>
                         <li>GatsbyJS</li>
