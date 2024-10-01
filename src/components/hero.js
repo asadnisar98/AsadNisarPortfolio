@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion, useTransform, useViewportScroll } from "framer-motion"
 import { ReactComponent as Down } from '../images/Next.svg'
-import resume from '../images/my_cv.pdf'
+import resume from '../images/Asad_SoftwareEngineer_CV1.docx'
 
 
 const transition = { duration: 1.4, ease: 'easeInOut', delay: 1.5 }
