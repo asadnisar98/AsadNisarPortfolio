@@ -7,7 +7,7 @@ import {
 } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ReactComponent as Arrow1 } from '../images/Arrow 1.svg'
-import resume from '../images/Asad_Frontend.pdf'
+import resume from '../images/Asad_SoftwareEngineer_CV1.docx'
 
 
 
